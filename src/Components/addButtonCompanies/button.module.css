@@ -1,0 +1,18 @@
+colors{
+   --mainColor: #f8bd39;
+   --hoverColor: #fcd176;
+   --clickColor: #f5a906;
+}
+.btn{
+    width:5rem !important;
+    height:5rem !important;
+    background-color: var(--mainColor) !important;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position:relative;
+    margin-top: 2rem;
+    align-self: flex-end;
+    margin-right: 1.5rem;
+
+}

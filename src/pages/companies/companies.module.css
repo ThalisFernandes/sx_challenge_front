@@ -1,0 +1,80 @@
+.mainFrame{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 32, 32);
+}
+.contentArea{
+    margin-top: 3rem;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.formArea{
+    margin-right: 10rem;
+    background-color:rgb(164, 165, 165);
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: 15.5rem 15.5rem 15.5rem;
+    grid-gap: 2rem;
+    border-radius: 50px;
+    margin-left: 7.5rem;
+    
+
+}
+#card_area{
+    width: 18rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    
+}
+.submit{
+    width:7.5rem;
+    height:2.5rem;
+    position: relative; 
+}
+#element{
+    margin: 3.5rem;
+}
+.btn{
+   
+    width: 10rem !important;
+    height: 2.5rem;
+    background-color: #359129;
+    box-shadow: 5px 4px 6px #5b5c5c;
+    border-radius: 12px;
+}
+.btnArea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:5rem;
+}
+.select{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background-color: #a4a5a5;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 40%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+    height: 5rem;
+}
